@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials | What Clients Say About Judith</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-map-marked-alt"></i>
+            <span>Judith Kuster</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="services.html">Services</a>
+            <a href="testimonials.html" class="active">Testimonials</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
+        <div class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Client Testimonials</h1>
+            <p>Real stories from travelers who experienced Africa with Judith</p>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS GRID -->
+    <section class="testimonials-grid-section">
+        <div class="container">
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Judith crafted the most magical honeymoon for us in Tanzania. Every detail was perfect - from the private safari guides to the surprise bush dinner. We'll treasure these memories forever."</p>
+                    <div class="testimonial-author">
+                        <h4>Sarah & Michael Richardson</h4>
+                        <span>Honeymoon in Tanzania, 2024</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"As a solo traveler, I was nervous about visiting Africa. Judith made me feel completely safe and created an itinerary that exceeded all expectations. The wildlife encounters were breathtaking!"</p>
+                    <div class="testimonial-author">
+                        <h4>David Thompson</h4>
+                        <span>Kenya & Uganda, 2024</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Our family of six had an unforgettable South African adventure. Judith's knowledge of family-friendly lodges and activities was invaluable. The kids still talk about the elephants!"</p>
+                    <div class="testimonial-author">
+                        <h4>The Peterson Family</h4>
+                        <span>South Africa, 2023</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Victoria Falls was on my bucket list for years. Judith arranged helicopter flights, luxury accommodations, and even a private sunset cruise. Worth every penny!"</p>
+                    <div class="testimonial-author">
+                        <h4>Emma Williams</h4>
+                        <span>Zimbabwe, 2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Create Your Own Story?</h2>
+            <p>Join hundreds of satisfied travelers who experienced Africa with Judith.</p>
+            <a href="contact.html" class="btn btn-light">Start Planning</a>
+        </div>
+    </section>
+
+    <!-- AI CHAT BUTTON -->
+    <button class="chat-button" id="chatButton">
+        <i class="fas fa-comment-dots"></i>
+    </button>
+
+    <!-- CHAT WIDGET -->
+    <div class="chat-widget" id="chatWidget">
+        <div class="chat-header">
+            <div class="chat-header-info">
+                <i class="fas fa-robot"></i>
+                <span>Judith's AI Assistant</span>
+            </div>
+            <button class="chat-close" id="chatClose">&times;</button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                👋 Hi! Curious about what travelers experience? I'd love to help you plan your journey!
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="chatInput" placeholder="Type your message...">
+            <button id="chatSend">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

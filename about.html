@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Judith | African Travel Expert</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-map-marked-alt"></i>
+            <span>Judith Kuster</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About Me</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="services.html">Services</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
+        <div class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <div class="container">
+            <h1>About Judith Kuster</h1>
+            <p>Your trusted guide to authentic African luxury travel</p>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <section class="about-content">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Passionate About Africa</h2>
+                    <p>With over 15 years of experience curating luxury travel experiences across Africa, I've dedicated my career to sharing the continent's extraordinary beauty with discerning travelers.</p>
+                    
+                    <h3>My Journey</h3>
+                    <p>Born and raised in South Africa, I developed a deep love for wildlife and diverse cultures from an early age. After working with top safari lodges and luxury travel companies, I founded my own consultancy to provide truly personalized experiences.</p>
+                    
+                    <h3>My Philosophy</h3>
+                    <p>I believe luxury travel should be transformative, not just comfortable. Every itinerary I create combines authentic experiences with exceptional service, ensuring you connect deeply with Africa while enjoying the finest accommodations.</p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">25+</span>
+                            <span class="stat-label">African Countries</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Happy Travelers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/3720984/pexels-photo-3720984.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Judith Kuster">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI CHAT BUTTON -->
+    <button class="chat-button" id="chatButton">
+        <i class="fas fa-comment-dots"></i>
+    </button>
+
+    <!-- CHAT WIDGET -->
+    <div class="chat-widget" id="chatWidget">
+        <div class="chat-header">
+            <div class="chat-header-info">
+                <i class="fas fa-robot"></i>
+                <span>Judith's AI Assistant</span>
+            </div>
+            <button class="chat-close" id="chatClose">&times;</button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                👋 Hi there! Ask me anything about Judith's background or African travel!
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="chatInput" placeholder="Type your message...">
+            <button id="chatSend">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

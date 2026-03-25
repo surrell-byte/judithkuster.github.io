@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Luxury African Travel Experiences</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-map-marked-alt"></i>
+            <span>Judith Kuster</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="services.html" class="active">Services</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
+        <div class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <div class="container">
+            <h1>My Services</h1>
+            <p>Comprehensive luxury travel planning for unforgettable African experiences</p>
+        </div>
+    </section>
+
+    <!-- SERVICES OVERVIEW -->
+    <section class="services-overview">
+        <div class="container">
+            <div class="services-intro">
+                <h2 class="section-title">Tailored Travel Experiences</h2>
+                <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem auto;">I offer end-to-end travel planning services designed to create seamless, luxurious, and authentic African adventures. Every journey is uniquely crafted to match your preferences, budget, and travel style.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN SERVICES GRID -->
+    <section class="services-grid-section">
+        <div class="container">
+            <div class="services-grid">
+                <!-- Service 1: Custom Itinerary Planning -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Custom Itinerary Planning</h3>
+                    <p>Personalized travel routes designed around your interests, timeframe, and budget. From luxury safaris to cultural immersions, every detail is carefully curated.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Personalized route design</span>
+                        <span><i class="fas fa-check"></i> Budget optimization</span>
+                        <span><i class="fas fa-check"></i> Activity recommendations</span>
+                    </div>
+                    <button class="service-learn-more" onclick="toggleServiceDetails('service1-details')">Learn More <i class="fas fa-chevron-down"></i></button>
+                    <div id="service1-details" class="service-details" style="display: none;">
+                        <p>I work closely with you to understand your travel dreams, preferences, and constraints. Whether you're seeking a romantic honeymoon, family adventure, or solo exploration, I create a detailed day-by-day itinerary that balances must-see highlights with hidden gems. Includes accommodation recommendations, activity bookings, and insider tips for each destination.</p>
+                    </div>
+                </div>
+
+                <!-- Service 2: Luxury Accommodation Booking -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h3>Luxury Accommodation Booking</h3>
+                    <p>Access to Africa's finest lodges, camps, and boutique hotels with exclusive rates and VIP perks.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Premium safari camps</span>
+                        <span><i class="fas fa-check"></i> Beachfront resorts</span>
+                        <span><i class="fas fa-check"></i> City boutique hotels</span>
+                    </div>
+                    <button class="service-learn-more" onclick="toggleServiceDetails('service2-details')">Learn More <i class="fas fa-chevron-down"></i></button>
+                    <div id="service2-details" class="service-details" style="display: none;">
+                        <p>I have established relationships with over 200 luxury properties across Africa. From intimate tented camps in the Serengeti to exclusive beach resorts in Zanzibar and 5-star city hotels in Cape Town, I secure the best available rates and room upgrades. Enjoy VIP treatment, complimentary extras, and priority bookings through my partner network.</p>
+                    </div>
+                </div>
+
+                <!-- Service 3: Private Safari Experiences -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paw"></i>
+                    </div>
+                    <h3>Private Safari Experiences</h3>
+                    <p>Exclusive wildlife encounters with expert guides, private vehicles, and access to premier game reserves.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Private game drives</span>
+                        <span><i class="fas fa-check"></i> Expert naturalist guides</span>
+                        <span><i class="fas fa-check"></i> Off-road safari access</span>
+                    </div>
+                    <button class="service-learn-more" onclick="toggleServiceDetails('service3-details')">Learn More <i class="fas fa-chevron-down"></i></button>
+                    <div id="service3-details" class="service-details" style="display: none;">
+                        <p>Experience Africa's wildlife like never before with private safari vehicles dedicated to you and your group. Skip the crowds and enjoy flexible game drives tailored to your interests. Your expert guide will share deep knowledge of animal behavior, ecosystems, and photography tips. I arrange exclusive access to private concessions and conservancies for a truly intimate safari experience.</p>
+                    </div>
+                </div>
+
+                <!-- Service 4: Cultural & Community Experiences -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <h3>Cultural & Community Experiences</h3>
+                    <p>Authentic encounters with local communities that support sustainable tourism and cultural preservation.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Village visits</span>
+                        <span><i class="fas fa-check"></i> Cultural workshops</span>
+                        <span><i class="fas fa-check"></i> Community projects</span>
+                    </div>
+                    <button class="service-learn-more" onclick="toggleServiceDetails('service4-details')">Learn More <i class="fas fa-chevron-down"></i></button>
+                    <div id="service4-details" class="service-details" style="display: none;">
+                        <p>Connect deeply with Africa's rich cultures through carefully selected community experiences. Visit Maasai villages in Kenya, explore local markets in Morocco, participate in traditional cooking classes in Cape Town, or support women's cooperatives in Botswana. I ensure these experiences are ethical, respectful, and beneficial to local communities.</p>
+                    </div>
+                </div>
+
+                <!-- Service 5: Transportation & Logistics -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Transportation & Logistics</h3>
+                    <p>Seamless travel coordination including flights, transfers, and specialized transportation across Africa.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Flight bookings</span>
+                        <span><i class="fas fa-check"></i> Airport transfers</span>
+                        <span><i class="fas fa-check"></i> Charter flights</span>
+                    </div>
+                    <button class="service-learn-more" onclick="toggleServiceDetails('service5-details')">Learn More <i class="fas fa-chevron-down"></i></button>
+                    <div id="service5-details" class="service-details" style="display: none;">
+                        <p>I handle all transportation logistics to ensure your journey flows smoothly. From international flight bookings and regional connections to private charter flights between safari camps, I coordinate every transfer. Enjoy private drivers, scenic light aircraft flights, and luxury vehicle rentals with complete peace of mind.</p>
+                    </div>
+                </div>
+
+                <!-- Service 6: Special Occasion Planning -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Special Occasion Planning</h3>
+                    <p>Make your milestone moments unforgettable with bespoke celebrations in Africa's most stunning locations.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Honeymoons</span>
+                        <span><i class="fas fa-check"></i> Anniversaries</span>
+                        <span><i class="fas fa-check"></i> Milestone birthdays</span>
+                    </div>
+                    <button class="service-learn-more" onclick="toggleServiceDetails('service6-details')">Learn More <i class="fas fa-chevron-down"></i></button>
+                    <div id="service6-details" class="service-details" style="display: none;">
+                        <p>Celebrate your special occasions in style. I specialize in creating magical moments - from surprise bush dinners under the stars, private sundowners at breathtaking viewpoints, to romantic hot air balloon safaris. Whether it's a honeymoon, anniversary, proposal, or milestone birthday, I'll design an unforgettable celebration tailored to you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PREMIUM ADD-ONS SECTION -->
+    <section class="premium-addons">
+        <div class="container">
+            <h2 class="section-title">Premium Add-On Services</h2>
+            <div class="addons-grid">
+                <div class="addon-card">
+                    <i class="fas fa-camera"></i>
+                    <h3>Private Photography Guide</h3>
+                    <p>Professional wildlife photographer available for private safari sessions to capture your best moments.</p>
+                </div>
+                <div class="addon-card">
+                    <i class="fas fa-spa"></i>
+                    <h3>Spa & Wellness Experiences</h3>
+                    <p>Luxury spa treatments, yoga sessions, and wellness retreats integrated into your itinerary.</p>
+                </div>
+                <div class="addon-card">
+                    <i class="fas fa-wine-bottle"></i>
+                    <h3>Private Wine Tastings</h3>
+                    <p>Exclusive wine experiences in South Africa's Cape Winelands with top sommeliers.</p>
+                </div>
+                <div class="addon-card">
+                    <i class="fas fa-helicopter"></i>
+                    <h3>Scenic Helicopter Tours</h3>
+                    <p>Aerial views of Victoria Falls, Table Mountain, or the Okavango Delta from private helicopters.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESS SECTION -->
+    <section class="process-section">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Initial Consultation</h3>
+                    <p>We discuss your travel dreams, preferences, budget, and timeline during a free consultation call.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Custom Itinerary Design</h3>
+                    <p>I craft a detailed itinerary with accommodation options, activities, and cost breakdown.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Refinement & Approval</h3>
+                    <p>We refine the plan until it perfectly matches your vision and you're excited to book.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Booking & Coordination</h3>
+                    <p>I handle all bookings, confirmations, and logistics so you have nothing to worry about.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>24/7 Support During Travel</h3>
+                    <p>I'm available throughout your journey to assist with any questions or changes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING INFO -->
+    <section class="pricing-info">
+        <div class="container">
+            <div class="pricing-card">
+                <h3>Investment in Your Dream Journey</h3>
+                <p>My planning fee starts at $500 for comprehensive itinerary design and booking services, which is credited toward your total trip cost. Each journey is unique, and I provide transparent pricing with no hidden fees. Contact me for a personalized quote based on your specific preferences.</p>
+                <a href="contact.html" class="btn btn-primary">Request a Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Start Your African Adventure?</h2>
+            <p>Let me create a personalized journey that exceeds your expectations.</p>
+            <a href="contact.html" class="btn btn-light">Contact Me Today</a>
+        </div>
+    </section>
+
+    <!-- AI CHAT BUTTON -->
+    <button class="chat-button" id="chatButton">
+        <i class="fas fa-comment-dots"></i>
+    </button>
+
+    <!-- CHAT WIDGET -->
+    <div class="chat-widget" id="chatWidget">
+        <div class="chat-header">
+            <div class="chat-header-info">
+                <i class="fas fa-robot"></i>
+                <span>Judith's AI Assistant</span>
+            </div>
+            <button class="chat-close" id="chatClose">&times;</button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                👋 Hi! I can tell you about my travel planning services, pricing, or help you start designing your dream African journey!
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="chatInput" placeholder="Type your message...">
+            <button id="chatSend">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <style>
+        /* Additional styles specific to services page */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .service-card {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, #fef5e7, #ffe6cc);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .service-icon i {
+            font-size: 2rem;
+            color: #e67e22;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            color: #2c5e2e;
+            margin-bottom: 1rem;
+        }
+
+        .service-card p {
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .service-features {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .service-features span {
+            font-size: 0.9rem;
+            color: #2c5e2e;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .service-features i {
+            color: #e67e22;
+            font-size: 0.8rem;
+        }
+
+        .service-learn-more {
+            background: none;
+            border: none;
+            color: #e67e22;
+            font-weight: 600;
+            cursor: pointer;
+            padding: 0;
+            font-family: inherit;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .service-learn-more:hover {
+            color: #d35400;
+        }
+
+        .service-details {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #f0e6d2;
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .addons-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .addon-card {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: 16px;
+            transition: transform 0.3s ease;
+        }
+
+        .addon-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .addon-card i {
+            font-size: 2.5rem;
+            color: #e67e22;
+            margin-bottom: 1rem;
+        }
+
+        .addon-card h3 {
+            color: #2c5e2e;
+            margin-bottom: 0.5rem;
+        }
+
+        .addon-card p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .step {
+            text-align: center;
+        }
+
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background: #e67e22;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0 auto 1rem auto;
+        }
+
+        .step h3 {
+            color: #2c5e2e;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .step p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .pricing-info {
+            padding: 4rem 0;
+            background: #f9f3e8;
+        }
+
+        .pricing-card {
+            background: white;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        .pricing-card h3 {
+            font-size: 1.8rem;
+            color: #2c5e2e;
+            margin-bottom: 1rem;
+        }
+
+        .pricing-card p {
+            color: #666;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .process-steps {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .pricing-card {
+                padding: 2rem;
+                margin: 0 1rem;
+            }
+            
+            .pricing-card h3 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+
+    <script src="script.js"></script>
+    <script>
+        // Toggle service details function
+        function toggleServiceDetails(serviceId) {
+            const details = document.getElementById(serviceId);
+            const button = event.target.closest('.service-learn-more');
+            const icon = button.querySelector('i');
+            
+            if (details.style.display === 'none' || details.style.display === '') {
+                details.style.display = 'block';
+                icon.classList.remove('fa-chevron-down');
+                icon.classList.add('fa-chevron-up');
+            } else {
+                details.style.display = 'none';
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
+            }
+        }
+    </script>
+</body>
+</html>

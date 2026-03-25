@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations | African Safari & Luxury Travel Experiences</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-map-marked-alt"></i>
+            <span>Judith Kuster</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="destinations.html" class="active">Destinations</a>
+            <a href="services.html">Services</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
+        <div class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Explore Africa's Finest Destinations</h1>
+            <p>Discover breathtaking landscapes, incredible wildlife, and rich cultures</p>
+        </div>
+    </section>
+
+    <!-- DESTINATIONS FILTER -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Destinations</button>
+                <button class="filter-btn" data-filter="safari">Safari</button>
+                <button class="filter-btn" data-filter="beach">Beach & Coastal</button>
+                <button class="filter-btn" data-filter="adventure">Adventure</button>
+                <button class="filter-btn" data-filter="cultural">Cultural</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESTINATIONS GRID -->
+    <section class="destinations-main">
+        <div class="container">
+            <div class="destinations-full-grid" id="destinationsGrid">
+                <!-- Kenya -->
+                <div class="destination-full-card" data-category="safari">
+                    <div class="destination-image">
+                        <img src="https://images.pexels.com/photos/2295744/pexels-photo-2295744.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Kenya Safari">
+                        <div class="destination-badge">Popular</div>
+                    </div>
+                    <div class="destination-info">
+                        <h3>Kenya Safari</h3>
+                        <div class="destination-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>East Africa</span>
+                        </div>
+                        <p>Experience the Great Migration in Masai Mara, encounter majestic elephants in Amboseli, and enjoy luxury tented camps with breathtaking views.</p>
+                        <div class="destination-highlights">
+                            <span><i class="fas fa-paw"></i> Big 5 Safaris</span>
+                            <span><i class="fas fa-camera"></i> Photography</span>
+                            <span><i class="fas fa-hot-air-balloon"></i> Hot Air Balloon</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-small">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Tanzania -->
+                <div class="destination-full-card" data-category="safari">
+                    <div class="destination-image">
+                        <img src="https://images.pexels.com/photos/3764512/pexels-photo-3764512.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Tanzania Safari">
+                        <div class="destination-badge">Best Seller</div>
+                    </div>
+                    <div class="destination-info">
+                        <h3>Tanzania Safari</h3>
+                        <div class="destination-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>East Africa</span>
+                        </div>
+                        <p>Home to the Serengeti, Ngorongoro Crater, and Mount Kilimanjaro. Witness the Great Migration in its full glory.</p>
+                        <div class="destination-highlights">
+                            <span><i class="fas fa-paw"></i> Big 5</span>
+                            <span><i class="fas fa-mountain"></i> Kilimanjaro</span>
+                            <span><i class="fas fa-campground"></i> Luxury Camps</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-small">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- South Africa -->
+                <div class="destination-full-card" data-category="safari beach adventure">
+                    <div class="destination-image">
+                        <img src="https://images.pexels.com/photos/2271796/pexels-photo-2271796.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cape Town South Africa">
+                        <div class="destination-badge">Diverse</div>
+                    </div>
+                    <div class="destination-info">
+                        <h3>Cape Town & Safari</h3>
+                        <div class="destination-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>South Africa</span>
+                        </div>
+                        <p>Combine urban sophistication with wildlife adventures. Explore Table Mountain, Cape Winelands, and world-class safari reserves.</p>
+                        <div class="destination-highlights">
+                            <span><i class="fas fa-mountain"></i> Table Mountain</span>
+                            <span><i class="fas fa-wine-bottle"></i> Wine Tasting</span>
+                            <span><i class="fas fa-paw"></i> Safari</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-small">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Victoria Falls -->
+                <div class="destination-full-card" data-category="adventure">
+                    <div class="destination-image">
+                        <img src="https://images.pexels.com/photos/1722617/pexels-photo-1722617.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Victoria Falls">
+                        <div class="destination-badge">Adventure</div>
+                    </div>
+                    <div class="destination-info">
+                        <h3>Victoria Falls</h3>
+                        <div class="destination-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Zimbabwe & Zambia</span>
+                        </div>
+                        <p>One of the Seven Natural Wonders of the World. Experience the smoke that thunders, bungee jumping, helicopter flights, and luxury river cruises.</p>
+                        <div class="destination-highlights">
+                            <span><i class="fas fa-water"></i> Helicopter Tour</span>
+                            <span><i class="fas fa-raft"></i> White Water Rafting</span>
+                            <span><i class="fas fa-ship"></i> Sunset Cruise</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-small">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Botswana -->
+                <div class="destination-full-card" data-category="safari adventure">
+                    <div class="destination-image">
+                        <img src="https://images.pexels.com/photos/1276811/pexels-photo-1276811.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Okavango Delta Botswana">
+                        <div class="destination-badge">Exclusive</div>
+                    </div>
+                    <div class="destination-info">
+                        <h3>Botswana - Okavango Delta</h3>
+                        <div class="destination-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Southern Africa</span>
+                        </div>
+                        <p>The world's largest inland delta. Experience mokoro canoe safaris, walking safaris, and exclusive luxury camps in pristine wilderness.</p>
+                        <div class="destination-highlights">
+                            <span><i class="fas fa-water"></i> Mokoro Canoe</span>
+                            <span><i class="fas fa-paw"></i> Walking Safari</span>
+                            <span><i class="fas fa-campground"></i> Luxury Camps</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-small">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Zanzibar -->
+                <div class="destination-full-card" data-category="beach cultural">
+                    <div class="destination-image">
+                        <img src="https://images.pexels.com/photos/1583780/pexels-photo-1583780.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Zanzibar Beach">
+                        <div class="destination-badge">Relaxation</div>
+                    </div>
+                    <div class="destination-info">
+                        <h3>Zanzibar Archipelago</h3>
+                        <div class="destination-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Tanzania</span>
+                        </div>
+                        <p>Pristine white sand beaches, turquoise waters, and rich Swahili culture. Perfect for post-safari relaxation or romantic getaways.</p>
+                        <div class="destination-highlights">
+                            <span><i class="fas fa-umbrella-beach"></i> Beach Resorts</span>
+                            <span><i class="fas fa-ship"></i> Dhow Cruises</span>
+                            <span><i class="fas fa-city"></i> Stone Town</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-small">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Namibia -->
+                <div class="destination-full-card" data-category="adventure">
+                    <div class="destination-image">
+                        <img src="https://images.pexels.com/photos/772664/pexels-photo-772664.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Namibia Desert">
+                        <div class="destination-badge">Unique</div>
+                    </div>
+                    <div class="destination-info">
+                        <h3>Namibia</h3>
+                        <div class="destination-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Southern Africa</span>
+                        </div>
+                        <p>Dramatic landscapes including the Namib Desert, Sossusvlei's red dunes, and Etosha National Park's unique wildlife viewing.</p>
+                        <div class="destination-highlights">
+                            <span><i class="fas fa-mountain"></i> Dunes</span>
+                            <span><i class="fas fa-paw"></i> Etosha Safari</span>
+                            <span><i class="fas fa-camera"></i> Photography</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-small">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Uganda -->
+                <div class="destination-full-card" data-category="adventure">
+                    <div class="destination-image">
+                        <img src="https://images.pexels.com/photos/268897/pexels-photo-268897.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mountain Gorillas Uganda">
+                        <div class="destination-badge">Bucket List</div>
+                    </div>
+                    <div class="destination-info">
+                        <h3>Uganda - Gorilla Trekking</h3>
+                        <div class="destination-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>East Africa</span>
+                        </div>
+                        <p>Encounter endangered mountain gorillas in their natural habitat. A truly life-changing experience in Bwindi Impenetrable Forest.</p>
+                        <div class="destination-highlights">
+                            <span><i class="fas fa-monkey"></i> Gorilla Trekking</span>
+                            <span><i class="fas fa-tree"></i> Rainforest</span>
+                            <span><i class="fas fa-camera"></i> Photography</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-small">Inquire Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRAVEL TIPS SECTION -->
+    <section class="travel-tips">
+        <div class="container">
+            <h2 class="section-title">Travel Tips & Best Times to Visit</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Best Time for Safari</h3>
+                    <p>June to October is ideal for wildlife viewing as animals gather around water sources. The Great Migration peaks in July-August.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-umbrella-beach"></i>
+                    <h3>Beach Destinations</h3>
+                    <p>December to March offers perfect beach weather in Zanzibar and Mauritius. Avoid April-May rainy season.</p>
+                </div>
+                <div class="tip-card">
+                    <i class="fas fa-hiking"></i>
+                    <h3>Adventure Activities</h3>
+                    <p>Victoria Falls is best visited from February to July when water flow is spectacular. Gorilla trekking is year-round.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Explore These Incredible Destinations?</h2>
+            <p>Let me create your personalized African journey today.</p>
+            <a href="contact.html" class="btn btn-light">Start Planning</a>
+        </div>
+    </section>
+
+    <!-- AI CHAT BUTTON -->
+    <button class="chat-button" id="chatButton">
+        <i class="fas fa-comment-dots"></i>
+    </button>
+
+    <!-- CHAT WIDGET -->
+    <div class="chat-widget" id="chatWidget">
+        <div class="chat-header">
+            <div class="chat-header-info">
+                <i class="fas fa-robot"></i>
+                <span>Judith's AI Assistant</span>
+            </div>
+            <button class="chat-close" id="chatClose">&times;</button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                👋 Hi! Which destination catches your eye? I can tell you more about any of these amazing places!
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="chatInput" placeholder="Type your message...">
+            <button id="chatSend">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
